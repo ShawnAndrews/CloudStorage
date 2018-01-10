@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous"> <!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/jAlert.css"> <!-- Alert CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script> <!--JQuery-->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script> <!-- JQuery UI (must be before bootstrap) -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> <!-- Bootstrap JS -->
+	<script src="js/jAlert.min.js"></script> <!-- Alert JS -->
+	<script src="js/js.cookie.js"></script> <!-- Cookie jQuery -->
+	<script src="js/loadcookies.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="events.js"></script>
+	
+	<title>Cloud Storage</title>
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<div class="menu-container">
+	  <div class="menu-profile"><i class="fa fa-user fa-2x"></i></div>
+	  <div class="menu-comment"><i class="fa fa-commenting fa-2x"></i></div>
+	  <div class="menu-files"><i class="fa fa-files-o fa-2x"></i></div>
+	  <div class="menu-stats"><i class="fa fa-line-chart fa-2x"></i></div>
+	  <div class="menu-home"><i class="fa fa-home fa-2x"></i></div>
+	  <div class="menu"><i class="fa fa-cloud fa-3x"></i></div>
+	</div>
+
+	<div class="fadein-block">
+		<div id="body-table">
+			<div class="body-table-cell">
+				<div class="body-title">Cloud </div>
+				<div class="body-title">Storage</div>
+				<div class="body-text">Start by logging into your Google account.</div>
+				<div class="body-text">Upload up to 5 files a week at 50 Mb's per file today!</div>
+				<div class="body-upload-box">
+					<div class="body-upload-box-container-img"><i class="fa fa-cloud-upload fa-5x body-upload-box-img"></i></div>
+					<input class="body-upload-box-holder invisible" type="file" multiple/>
+				</div>
+				<button class='body-upload-btn btn btn-primary' type='button' data-loading-text="<i class='fa fa-spinner fa-spin'></i> Uploading..." disabled="true">Upload</button>
+				<div class="GoogleSignInBtn">
+					<span class="icon"></span>
+					<span class="buttonText">Login with Google</span>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

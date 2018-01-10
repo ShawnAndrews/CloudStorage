@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous"> <!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/css/jAlert.css"> <!-- Alert CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script> <!--JQuery-->
+	<script src="/js/jAlert.min.js"></script> <!-- Alert JS -->
+	<script src="/js/menu.js"></script>
+	
+	<title>Cloud Storage</title>
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<div class="menu-container">
+	  <div class="menu-profile"><i class="fa fa-user fa-2x"></i></div>
+	  <div class="menu-comment"><i class="fa fa-commenting fa-2x"></i></div>
+	  <div class="menu-files"><i class="fa fa-files-o fa-2x"></i></div>
+	  <div class="menu-stats"><i class="fa fa-line-chart fa-2x"></i></div>
+	  <div class="menu-home"><i class="fa fa-home fa-2x"></i></div>
+	  <div class="menu"><i class="fa fa-cloud fa-3x"></i></div>
+	</div>
+
+	<div class="fadein-block">
+		<div id="body-table">
+			<div class="body-table-cell">
+				<div class="panel panel-info body-panel-container">
+					<div class="panel-heading body-panel-title">Error:</div>
+					<div class="alert alert-info alert-msg">This page does not exist.</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
